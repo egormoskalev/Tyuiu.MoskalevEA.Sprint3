@@ -6,12 +6,12 @@ namespace Tyuiu.MoskalevEA.Sprint3.Task2.V26.Lib
     {
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
-            double sum = 0;
-            while (startValue <= stopValue)
+            double sum = 1;
+            do
             {
-                sum = sum + ((Math.Pow(value, 3) * startValue) + 2);
+                sum = sum * ((Math.Pow(value, 3) * startValue) + 2);
                 startValue++;
-            }
+            } while (startValue <= stopValue);
             return Math.Round(sum, 3);
         }
     }
