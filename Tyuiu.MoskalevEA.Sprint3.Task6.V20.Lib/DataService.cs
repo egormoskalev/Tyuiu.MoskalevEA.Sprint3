@@ -20,7 +20,7 @@ namespace Tyuiu.MoskalevEA.Sprint3.Task6.V20.Lib
                 }
 
                 totalSum += divisorCount;
-            
+           
             }
 
             return totalSum;
