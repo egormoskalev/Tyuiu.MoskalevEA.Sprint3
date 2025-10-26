@@ -13,7 +13,7 @@ namespace Tyuiu.MoskalevEA.Sprint3.Task6.V20.Lib
                 
                 int divisorCount = 0;
                
-                for (int d = 1; d <= n && d <= 12; d++)
+                for (int d = 1; d <= n && d <= 11; d++)
                 {
                         if (n % d == 0)
                             divisorCount++;
