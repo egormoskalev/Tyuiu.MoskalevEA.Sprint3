@@ -13,7 +13,7 @@ namespace Tyuiu.MoskalevEA.Sprint3.Task7.V26.Lib
             {
                 double y = 0;
 
-                y = 5 - 3 * x + ((1 + Math.Sin(x)) / 2 * x - 0.5);
+                y = 5 - 3 * x + ((1 + Math.Sin(x)) / (2 * x - 0.5));
 
                 result[index] = Math.Round(y, 2);
                 index++;
